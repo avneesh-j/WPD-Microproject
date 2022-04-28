@@ -9,4 +9,4 @@
 7. Pooja Abhonkar\
 8. Arnav Deshpande\
 9. Aditya Naidu\
-10. Aditya shinde\ 
+10. Aditya shinde
