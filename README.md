@@ -1,8 +1,8 @@
 # Website created by SVCP students (2022, 1st year)
 **Group Members :**\
-**1. Avneesh Jagtap**  (Main Contributors)\
-**2. Ved Asawa**  (Main Contributors)\
-**3. Arya Maddel**  (Main Contributors)\
+**1. Avneesh Jagtap**  (Main Contributor)\
+**2. Ved Asawa**  (Main Contributor)\
+**3. Arya Maddel**  (Main Contributor)\
 4. Adesh Bandal\
 5. Shridhar Bhosale\
 6. Siddhesh Deshmukh\
