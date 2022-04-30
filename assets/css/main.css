@@ -2912,7 +2912,7 @@ body.is-touch .tiles article .content {
 /* Header */
 
 #header {
-  padding: 4em 0 2em 0;
+  padding: 8em 0 0.1em 0;
 }
 
 #header .logo {
