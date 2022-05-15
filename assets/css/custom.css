@@ -2,3 +2,16 @@
 #header {
   padding: 4em 0 2em 0;
 }
+.hero-video {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-video video {
+  width: 75%;
+}
+#main .inner header q {
+  font-size: larger;
+}
