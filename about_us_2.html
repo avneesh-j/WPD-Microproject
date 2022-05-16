@@ -11,11 +11,39 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
 	<style>
-<table width="100%"> 
- <colgroup> 
-    <col span="4"  width="25%"> 
- </colgroup> 
-</style>
+		thead,
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+}
+
+td {
+    text-align: center;
+}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -59,33 +87,38 @@
 					<hr>
 				</header>
 				<ul>
-					<table style="width:100%">
-						 <tr>
-    <td><li>
-	    <h2>Avneesh Jagtap (Group Leader)</h2><br><h3>Roll No: 8</h3><br><h2><a href="index.html">Work - Home Page</h2>
-						</a>
-						<right><img src="./images/avneeshj.jpeg" alt="Avneesh Jagtap" width="200px">
-					</li>
-					</right>
-	</td>
-    <td><li>
-	    <h2>Arya M</h2><br><h3>Roll No: 6<h3><br><h2><a href="about_us.html">Work - About us Page</h2></a><right><img
-															  src="./images/Arya Maddel.jpg" alt="Arya M" width="200px"></right>
-					</li></td>
+					<table>
+  
+    <thead>
+        <tr>
+            <th>Names</th>
+            <th scope="col">Photo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">
+	    <h2>Avneesh Jagtap (Group Leader)</h2><h3>Roll No: 8</h3><h2><a href="index.html">Work - Home Page</h2></a></th>
+            <th scope="row"><center><img src="./images/avneeshj.jpeg" alt="Avneesh Jagtap" width="200px"></center></th>
+	    </tr>
+	         <tr>
+		<th scope="row">
+		<h2Ved Asawa</h2><h3>Roll No: 7</h3><h2><a href="athletes_football.html">Work - Athletes Pages</h2></a></th>
+		<th scope="row"><center><img src="./images/ved.jpg" alt="Ved A" width="200px"></center></th>
+        </tr>
+	            <tr>
+		<th scope="row">
+		<h2>Arya M</h2><h3>Roll No: 6</h3><h2><a href="about_us.html">Work - About us Page</h2></a></th>
+		<th scope="row"><center><img src="./images/Arya Maddel.jpg" alt="Arya M" width="200px"></center></th>
+        </tr>
+	   <tr>
+            <th scope="row">
+	    <h2>Arnav D</h2><h3>Roll No: 5</h3><h2><a href="#"></a>Work - Athletes Info</h2></a></th>
+            <th scope="row"><center><img src="./images/arnav.jpeg" alt="Arnav D" width="200px"></center></th>
+	    </tr>   
+    </tbody>
+</table>
 
-  </tr>
-					
-					
-					<li>
-						<h2>Ved Asawa<br>Roll No: 7<br><a href="athletes_football.html">Work - Athletes Pages</a></h2>
-						<img src="./images/ved.jpg" alt="Ved A" width="200px">
-					</li>
-					<hr>
-					<li>
-						<h2>Arnav D<br>Roll No: 5<br><a href="#"></a>Work - Athletes Info</h2><img
-							src="./images/arnav.jpeg" alt="Arnav D" width="200px">
-					</li>
-					<hr>
 					<li>
 						<h2>Aditya S<br>Roll No: 3<br><a href="football.html">Work - Football Page</a></h2><img
 							src="./images/adityas.jpeg" alt="Aditya" width="200px">
